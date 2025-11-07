@@ -71,6 +71,12 @@ ci:
      with:
        name: coverage-report
        path: coverage/
+
+
+
+
+
+
 🧪 Testing Setup
 Stack: Jest + Supertest
 
@@ -92,6 +98,14 @@ describe('App basic endpoints', () => {
     expect(res.body).toEqual({ status: 'ok' });
   });
 });
+
+
+
+
+
+
+
+
 🧰 Run Locally
 bash
 Copy code
