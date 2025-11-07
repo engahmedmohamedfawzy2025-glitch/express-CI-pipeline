@@ -2,8 +2,6 @@
 
 A minimal **Node.js / Express** app integrated with an automated **Continuous Integration (CI)** pipeline using **GitHub Actions**, **Jest**, **ESLint**, and **Prettier**.
 
-![CI](https://github.com/USER/express-ci-pipeline/actions/workflows/ci.yml/badge.svg)
-
 ---
 
 ## 📖 Overview
@@ -111,7 +109,5 @@ npm run test:ci
 
 
 📜 License
+MIT © Ahmed Fawzy
 
-MIT © Ahmed Fawzy
-📜 License
-MIT © Ahmed Fawzy
