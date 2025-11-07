@@ -12,7 +12,7 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
-    "test:ci": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --ci --runInBand"
+"test:ci": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --ci --runInBand"
   },
   "engines": { "node": ">=20" },
   "dependencies": {
