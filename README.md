@@ -64,8 +64,12 @@ jobs:
         with:
           name: coverage-report
           path: coverage/
-🧪 Testing Setup
-File: tests/app.test.js
+
+
+
+
+## 🧪 Testing Setup
+**File:** `tests/app.test.js`
 
 js
 Copy code
@@ -85,7 +89,11 @@ describe('App basic endpoints', () => {
     expect(res.body).toEqual({ status: 'ok' });
   });
 });
-🧰 Run Locally
+
+
+
+
+## 🧰 Run Locally
 bash
 Copy code
 # install dependencies
@@ -100,5 +108,10 @@ npm test
 
 # run CI-style tests with coverage
 npm run test:ci
+
+
+📜 License
+
+MIT © Ahmed Fawzy
 📜 License
 MIT © Ahmed Fawzy
